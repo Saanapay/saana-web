@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	height: 100vh;
+}
+
+.onboarding-banner {
+	background: linear-gradient(0deg, rgba(26, 124, 165, 0.81), rgba(26, 124, 165, 0.81)),
+		url(../img/onboarding-banner.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	line-height: 38px;
+}
+
+.inspire-quote {
+	font-family: 'Gayathri', sans-serif;
+	font-size: 96px;
+	color: #00daf7;
+	line-height: 17px;
+}
+
+.end-quote {
+	width: 33.5px;
+	height: 33px;
+	clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 50%, 50% 50%);
+	background: #ffffff;
+	/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.bg-sky-blue {
+	background-color: #f5f9ff;
+}
+
+.card-plan {
+	border: none;
+	box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+	border-radius: 6px;
+}
+
+.card-plan:hover {
+	background: #f5f9ff;
+	border: 1px solid #1565d8;
+}
+
+.form-input {
+	display: block;
+	width: 100%;
+	padding: 0.75rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-input:focus {
+	border: 1px solid #1565d8;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+	border-radius: 6px;
+}
+
+.form-input::placeholder {
+	color: #e0e0e0;
+	font-size: 14px;
+}
+
+.input-group-text {
+	background-color: #fff;
+	border-left: 0;
+}
+
+.input-group .form-input {
+	border-right: 0;
+}
+
+.btn-primary {
+	background-color: #1565d8;
+}
+
+.btn-outline-primary {
+	border: 1px solid #1565d8;
+	color: #1565d8;
+}
